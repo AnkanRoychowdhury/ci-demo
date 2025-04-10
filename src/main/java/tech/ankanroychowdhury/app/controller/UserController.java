@@ -45,6 +45,7 @@ public class UserController{
 
         for (int i = 0; i < length; i++) {
             email.append(CHARACTERS.charAt(random.nextInt(CHARACTERS.length())));
+            
         }
 
         email.append("@").append(DOMAINS[random.nextInt(DOMAINS.length)]);
